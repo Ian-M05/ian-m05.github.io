@@ -109,7 +109,7 @@
 
 /* Post Container Adjustments */
 .blog-post-container {
-  background-color: #FAFAF7; /* Light Ivory background instead of pure white/transparent */
+  background-color: #FAFAF7;
   padding-bottom: 4rem;
   padding-top: 1rem;
 }
@@ -117,7 +117,7 @@
 .post {
   background-color: #FFFFFF;
   border-radius: var(--border-radius-lg);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 20px rgba(176, 91, 64, 0.07);
   padding: 3rem;
   margin-top: 2rem;
   max-width: 900px;
