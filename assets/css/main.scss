@@ -640,8 +640,22 @@ a {
     flex-direction: column;
   }
   
-  .post-nav-link {
+  .post-nav-link, .post-nav-placeholder {
     flex: 1;
+    width: 50%; 
+    
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  .post-nav-placeholder {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .post-nav-link {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
@@ -649,6 +663,7 @@ a {
     border-radius: 8px;
     transition: var(--transition);
     border: 1px solid var(--border);
+    min-width: 0; // Allow flex items to shrink below content size
     
     &:hover {
       background: var(--manilla);
@@ -669,6 +684,9 @@ a {
       font-weight: 700;
       color: var(--primary);
       font-size: 1.1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }

@@ -34,7 +34,7 @@ layout: default
           <span class="nav-title">{{ page.previous.title }}</span>
         </a>
         {% else %}
-        <div style="flex: 1;"></div>
+        <div class="post-nav-placeholder"></div>
         {% endif %}
         
         {% if page.next.url %}
@@ -42,6 +42,8 @@ layout: default
           <span class="nav-label">Next Post <i class="fas fa-arrow-right"></i></span>
           <span class="nav-title">{{ page.next.title }}</span>
         </a>
+        {% else %}
+        <div class="post-nav-placeholder"></div>
         {% endif %}
       </div>
     </div>
