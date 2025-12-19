@@ -1,0 +1,141 @@
+// Buttons
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  
+  &.btn-primary {
+    background-color: $secondary-color;
+    color: $text-light;
+    border: 2px solid $secondary-color;
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+      border-color: darken($secondary-color, 10%);
+    }
+  }
+  
+  &.btn-secondary {
+    background-color: $accent-color;
+    color: $text-light;
+    border: 2px solid $accent-color;
+    &:hover {
+      background-color: darken($accent-color, 10%);
+    }
+  }
+  
+  &.btn-outline {
+    background-color: transparent;
+    color: $secondary-color;
+    border: 2px solid $secondary-color;
+    &:hover {
+      background-color: $secondary-color;
+      color: $text-light;
+    }
+  }
+}
+
+// Cards
+.card, .project-card, .feature-card, .education-card {
+  background: $background-color;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-header {
+    background: linear-gradient(135deg, $accent-color 0%, $secondary-color 100%);
+    padding: 1.75rem;
+    margin: -2rem -2rem 1.5rem -2rem;
+    display: flex;
+    align-items: center;
+    
+    h3 {
+      color: #FFFFFF;
+      margin: 0;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  .card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.25rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    i { color: #FFFFFF; font-size: 1.75rem; }
+  }
+
+  .card-date {
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+  }
+}
+
+// Hero
+.hero-section {
+  position: relative;
+  padding: 6rem 0;
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    span { color: $secondary-color; }
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: $accent-color;
+    margin-bottom: 2rem;
+  }
+}
+
+// Tags
+.skill-tag, .project-tag, .blog-tag {
+  display: inline-block;
+  background: $light-bg;
+  color: $primary-color;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  margin: 0.25rem;
+  border: 1px solid $border-color;
+}
+
+// Skills container
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+

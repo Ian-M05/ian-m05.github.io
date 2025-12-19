@@ -7,8 +7,8 @@ permalink: /about/
 <section class="section">
   <div class="wrapper">
     <div class="section-title">
-      <h1 class="fade-in" style="color: var(--secondary);">About Me</h1>
-      <p style="color: var(--text-dark);">Computer Science student with a passion for AI and machine learning</p>
+      <h1 class="fade-in">About Me</h1>
+      <p>Computer Science student with a passion for AI and machine learning</p>
     </div>
 
     <div class="about-container fade-in-up">
@@ -35,17 +35,17 @@ permalink: /about/
 <section class="section bg-light">
   <div class="wrapper">
     <div class="section-title">
-      <h2 style="color: var(--secondary);">Education</h2>
-      <p style="color: var(--text-dark);">My academic journey and credentials</p>
+      <h2>Education</h2>
+      <p>My academic journey and credentials</p>
     </div>
     
-    <div class="project-card fade-in-up" style="background-color: #FFFFFF; border-radius: 12px; box-shadow: 0 8px 20px rgba(176, 91, 64, 0.07); overflow: hidden; border: none; margin-bottom: 1.5rem;">
-      <div style="background: linear-gradient(135deg, #D4A27F 0%, #CC785C 100%); padding: 1.75rem; border-radius: 12px 12px 0 0; display: flex; align-items: center;">
-        <div style="width: 60px; height: 60px; border-radius: 50%; background-color: rgba(255, 255, 255, 0.3); display: flex; align-items: center; justify-content: center; margin-right: 1.25rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-          <i class="fas fa-university" style="color: #FFFFFF; font-size: 1.75rem;"></i>
+    <div class="project-card fade-in-up">
+      <div class="card-header">
+        <div class="card-icon">
+          <i class="fas fa-university"></i>
         </div>
-        <h3 style="color: #FFFFFF; margin: 0; font-weight: 700; font-size: 1.5rem; letter-spacing: 0.5px;">Virginia Commonwealth University</h3>
-        <div style="margin-left: auto; background-color: rgba(255, 255, 255, 0.2); padding: 0.5rem 1rem; border-radius: 4px; font-size: 0.9rem; color: #FFFFFF;">
+        <h3>Virginia Commonwealth University</h3>
+        <div class="card-date">
           2023 - 2027
         </div>
       </div>

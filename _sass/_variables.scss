@@ -1,0 +1,50 @@
+// Colors
+:root {
+  /* Primary Colors */
+  --primary: #191919;       /* Slate Dark */
+  --primary-dark: #000000;  /* Black */
+  --secondary: #CC785C;     /* Book Brown */
+  --secondary-dark: #B46A51; /* Darker Book Brown */
+  --accent: #D4A27F;        /* Book Medium */
+  --accent-light: #EBDBBC;  /* Manilla */
+  
+  /* Text Colors */
+  --text-dark: #191919;     /* Slate Dark for text on light */
+  --text-light: #FAFAF7;    /* Ivory Light for text on dark */
+  --text-medium: #91918D;   /* Cloud Medium for subtle text */
+  
+  /* Background Colors */
+  --background: #FFFFFF;    /* White background */
+  --dark-bg: #191919;       /* Slate Dark for dark sections */
+  --light-bg: #EBDBBC;      /* Manilla for light sections */
+  --border: #E5E4DE;        /* Ivory Dark border */
+  
+  /* Layout */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+}
+
+// SCSS Variables for compatibility
+$primary-color: #191919;
+$primary-dark: #000000;
+$secondary-color: #CC785C;
+$accent-color: #D4A27F;
+$text-color: #191919;
+$text-light: #FAFAF7;
+$text-medium: #91918D;
+$background-color: #FFFFFF;
+$dark-bg: #191919;
+$light-bg: #EBDBBC;
+$border-color: #E5E4DE;
+$manilla: #EBDBBC;
+
+// Typography
+$base-font-size: 16px;
+$heading-font-weight: 700;
+$body-font-weight: 400;
+$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+

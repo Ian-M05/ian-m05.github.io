@@ -4,11 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-<section class="section" style="background-color: #FFFFFF;">
+<section class="section">
   <div class="wrapper">
     <div class="section-title">
-      <h1 class="fade-in" style="color: var(--secondary);">My Projects</h1>
-      <p style="color: var(--text-medium);">A showcase of my work in AI, software development, and more</p>
+      <h1 class="fade-in">My Projects</h1>
+      <p>A showcase of my work in AI, software development, and more</p>
     </div>
     
     <div class="projects-grid">

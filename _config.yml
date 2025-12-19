@@ -100,5 +100,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - chat_with_ollama.py
   - cs_portfolio_website_guide.txt
