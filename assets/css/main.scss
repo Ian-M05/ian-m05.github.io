@@ -1,3 +1,5 @@
+---
+---
 @charset "utf-8";
 
 // --- Anthropic Official Color Palette (Variables) ---
@@ -774,9 +776,27 @@ body.no-scroll {
   overflow: hidden;
 }
 
+// Pagination
+.blog-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  
+  .page-number {
+    font-weight: 600;
+    color: var(--text-medium);
+    font-size: 0.95rem;
+  }
+}
+
 // Utility
 .text-center { text-align: center; }
 .mt-5 { margin-top: 3rem; }
-
-} 
-} 
+.mt-2 { margin-top: 1rem; }
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
