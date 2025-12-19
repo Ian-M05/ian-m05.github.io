@@ -13,20 +13,20 @@ permalink: /about/
 
     <div class="about-container fade-in-up">
       <div class="about-image-box">
-        <img src="/assets/images/new.jpg" alt="Ian Joseph-Carl Mullins" class="profile-image" />
+        <img src="/assets/images/new.jpg" alt="Ian Mullins" class="profile-image" />
         <div class="about-social">
-          <a href="https://github.com/RFlash007" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/Ian-M05" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/ianjcmullins" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
           <a href="https://huggingface.co/RFlash" target="_blank" class="social-link">🤗</a>
         </div>
       </div>
       
       <div class="about-content">
-        <p>I'm a Computer Science student at Virginia Commonwealth University, specializing in Artificial Intelligence. With hands-on experience in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and prompt engineering, I'm passionate about developing AI solutions that enhance human-computer interaction.</p>
+        <p>I am a Computer Science Student at Virginia Commonwealth University, specializing in <strong>AI & Data Strategy</strong>. My work focuses on intelligent agent architectures, data pipeline engineering, and systems optimization.</p>
         
-        <p>My journey in computer science began with a fascination for how AI could solve complex problems and make technology more accessible. This passion has driven me to explore cutting-edge technologies and develop practical applications that demonstrate the power of machine learning.</p>
+        <p>As the architect of <strong>F.R.E.D.</strong>, I have experience designing high-availability routing systems, enforcing schema compliance for asynchronous data flows, and optimizing local model inference on edge platforms like Raspberry Pi. My background bridges the gap between raw data collection and strategic model deployment.</p>
         
-        <p>Through my academic studies and personal projects, I've developed a strong foundation in both theoretical concepts and practical implementation of AI systems. I'm particularly interested in the ethical implications of AI and ensuring that the technologies we develop serve humanity in meaningful ways.</p>
+        <p>I am currently pursuing an accelerated M.S. in Computer Science (2027-2028) and serving as the Technical Point of Contact for a Capstone project with <strong>CoStar Group</strong>, translating complex business requirements into scalable AI specifications.</p>
       </div>
     </div>
   </div>
@@ -41,34 +41,34 @@ permalink: /about/
     
     <div class="three-column-grid fade-in-up">
       <div class="card">
-        <h3>AI & Machine Learning</h3>
+        <h3>AI Architecture</h3>
         <div class="skill-container">
-          <span class="skill-tag">Large Language Models (LLMs)</span>
-          <span class="skill-tag">RAG</span>
-          <span class="skill-tag">Prompt Engineering</span>
-          <span class="skill-tag">Prompt Chaining</span>
-          <span class="skill-tag">PyTorch</span>
-          <span class="skill-tag">Machine Learning</span>
-          <span class="skill-tag">Fine-Tuning</span>
+          <span class="skill-tag">Multi-Agent Systems</span>
+          <span class="skill-tag">Data Strategy</span>
+          <span class="skill-tag">RAG Optimization</span>
+          <span class="skill-tag">Knowledge Graphs</span>
+          <span class="skill-tag">Model Validation</span>
         </div>
       </div>
       
       <div class="card">
-        <h3>Programming Languages</h3>
+        <h3>Systems Engineering</h3>
         <div class="skill-container">
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">Java</span>
-          <span class="skill-tag">C</span>
+          <span class="skill-tag">V-Model Lifecycle</span>
+          <span class="skill-tag">Trade Studies</span>
+          <span class="skill-tag">V&V Procedures</span>
+          <span class="skill-tag">Root Cause Analysis</span>
         </div>
       </div>
       
       <div class="card">
-        <h3>Tools & Frameworks</h3>
+        <h3>Core Technologies</h3>
         <div class="skill-container">
-          <span class="skill-tag">Hugging Face</span>
-          <span class="skill-tag">Git/GitHub</span>
-          <span class="skill-tag">Requests</span>
-          <span class="skill-tag">Ollama</span>
+          <span class="skill-tag">Python (SQL/Bash)</span>
+          <span class="skill-tag">PyTorch/HF</span>
+          <span class="skill-tag">FastAPI/Flask</span>
+          <span class="skill-tag">Linux (RHEL/Ubuntu)</span>
+          <span class="skill-tag">Intune/Enterprise IT</span>
         </div>
       </div>
     </div>
@@ -84,6 +84,44 @@ permalink: /about/
     
     <div class="project-card fade-in-up">
       <div class="project-icon-box">
+        <i class="fas fa-building"></i>
+      </div>
+      <div class="project-content">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+          <h3 style="margin: 0;">CoStar Group</h3>
+          <span class="project-tag">2025 - Present</span>
+        </div>
+        <h4 style="color: var(--secondary); margin: 0.5rem 0;">Technical Point of Contact</h4>
+        <p style="font-style: italic; margin-bottom: 1rem;">Capstone Project - Scalable AI Architecture</p>
+        
+        <ul class="feature-list">
+          <li>Facilitating requirements flow-down between CoStar stakeholders and development team to ensure alignment with business goals.</li>
+          <li>Conducted Stakeholder Requirements Definition to translate business needs into technical specifications.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-card fade-in-up" style="margin-top: 2rem;">
+      <div class="project-icon-box">
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <div class="project-content">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+          <h3 style="margin: 0;">TMG/Dominion Management</h3>
+          <span class="project-tag">July - Aug 2025</span>
+        </div>
+        <h4 style="color: var(--secondary); margin: 0.5rem 0;">IT Intern</h4>
+        <p style="font-style: italic; margin-bottom: 1rem;">Enterprise IT Operations</p>
+        
+        <ul class="feature-list">
+          <li>Standardized Mac onboarding with Intune runbooks, reducing day-one blockers for new users.</li>
+          <li>Managed access controls and resolved high-volume HW/SW/network tickets across the organization.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-card fade-in-up" style="margin-top: 2rem;">
+      <div class="project-icon-box">
         <i class="fas fa-fire-extinguisher"></i>
       </div>
       <div class="project-content">
@@ -92,12 +130,11 @@ permalink: /about/
           <span class="project-tag">May 2023 - Present</span>
         </div>
         <h4 style="color: var(--secondary); margin: 0.5rem 0;">Technical Inspector Assistant</h4>
-        <p style="font-style: italic; margin-bottom: 1rem;">Building Safety & Fire Prevention</p>
+        <p style="font-style: italic; margin-bottom: 1rem;">V&V / Safety Compliance</p>
         
         <ul class="feature-list">
-          <li>Conducted thorough building inspections that successfully identified and resolved leak issues, enhancing structural safety</li>
-          <li>Ensured optimal functionality of fire sprinkler heads through regular maintenance and proactive repair</li>
-          <li>Efficiently disassembled and repaired sprinkler system components, contributing to reliable fire safety operations</li>
+          <li>Executed rigorous system verification (V&V) procedures on 100+ commercial installations ensuring 100% adherence to safety codes.</li>
+          <li>Utilized compliance checklists and technical specifications to identify and resolve critical system leaks.</li>
         </ul>
       </div>
     </div>

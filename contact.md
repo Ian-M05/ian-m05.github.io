@@ -32,11 +32,23 @@ permalink: /contact/
           <li>
             <div class="contact-item">
               <div class="contact-icon-circle">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:7576348262">(757) 634-8262</a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="contact-item">
+              <div class="contact-icon-circle">
                 <i class="fab fa-github"></i>
               </div>
               <div>
                 <h4>GitHub</h4>
-                <a href="https://github.com/RFlash007" target="_blank">github.com/RFlash007</a>
+                <a href="https://github.com/Ian-M05" target="_blank">github.com/Ian-M05</a>
               </div>
             </div>
           </li>

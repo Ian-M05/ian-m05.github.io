@@ -26,13 +26,13 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ian-m05.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: RFlash007
+github_username: Ian-M05
 linkedin_username: ianjcmullins
 author: Ian Mullins
 
 # Additional social links
 social_links:
-  github: RFlash007
+  github: Ian-M05
   linkedin: ianjcmullins
 
 # Build settings

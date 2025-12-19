@@ -6,7 +6,7 @@ layout: home
   <div class="wrapper">
     <div class="hero-content fade-in">
       <h1 class="hero-title">Hi, I'm <span>Ian Mullins</span></h1>
-      <p class="hero-subtitle">Computer Science student specializing in Artificial Intelligence</p>
+      <p class="hero-subtitle">Computer Science Student specializing in AI & Data Strategy</p>
       <div class="hero-cta">
         <a href="/projects" class="btn btn-primary">
           <i class="fas fa-code"></i> View My Projects
@@ -19,41 +19,50 @@ layout: home
   </div>
 </section>
 
+<section class="section">
+  <div class="wrapper">
+    <div class="section-title">
+      <h2>Objective</h2>
+      <p style="max-width: 800px; margin: 1rem auto; font-size: 1.2rem; color: var(--text-dark);">Computer Science Student specializing in AI & Data Strategy (3.9 GPA) with experience in intelligent agent architectures. Seeking to apply background in data analysis, model development, and scalable Python implementation to the Enterprise Data platform team internship.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
-      <h2>My Expertise</h2>
-      <p>Areas where I excel and continue to grow</p>
+      <h2>Core Competencies</h2>
+      <p>Technical expertise and strategic domains</p>
     </div>
     
     <div class="three-column-grid">
       <div class="feature-card fade-in-up">
         <div class="feature-icon-box">
-          <i class="fas fa-robot"></i>
+          <i class="fas fa-network-wired"></i>
         </div>
         <div class="feature-content">
-          <h3>AI & Machine Learning</h3>
-          <p>Experienced with Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and prompt engineering techniques.</p>
+          <h3>Data & AI Architecture</h3>
+          <p>Data Pipeline Architecture, Model Development, RAG Optimization, Knowledge Graph Implementation, and Trade Studies.</p>
         </div>
       </div>
       
       <div class="feature-card fade-in-up" style="animation-delay: 0.2s;">
         <div class="feature-icon-box">
-          <i class="fas fa-code"></i>
+          <i class="fas fa-microchip"></i>
         </div>
         <div class="feature-content">
-          <h3>Software Development</h3>
-          <p>Proficient in Python, Java, and C programming with a focus on creating efficient and maintainable code.</p>
+          <h3>Systems Engineering</h3>
+          <p>Inference Optimization, Vector Database Management, Automated Testing, and Linux (RHEL/Ubuntu).</p>
         </div>
       </div>
       
       <div class="feature-card fade-in-up" style="animation-delay: 0.4s;">
         <div class="feature-icon-box">
-          <i class="fas fa-terminal"></i>
+          <i class="fas fa-chart-line"></i>
         </div>
         <div class="feature-content">
-          <h3>System Design</h3>
-          <p>Skilled in designing robust and scalable systems with an emphasis on performance optimization and user experience.</p>
+          <h3>Data Strategy</h3>
+          <p>Data Collection & Cleaning, Dashboards & Reporting, and Performance Monitoring.</p>
         </div>
       </div>
     </div>
@@ -70,25 +79,25 @@ layout: home
     <div class="projects-grid">
       <div class="project-card fade-in-up">
         <div class="project-icon-box">
-          <i class="fas fa-robot"></i>
+          <i class="fas fa-brain"></i>
         </div>
         <div class="project-content">
-          <span class="project-category">AI Development</span>
-          <h3 class="project-title">AI Assistant</h3>
-          <p>A personal AI assistant built with Python that leverages LLMs for natural language understanding and task automation.</p>
-          <a href="/projects#ai-assistant" class="btn btn-primary">Learn More</a>
+          <span class="project-category">Flagship Project</span>
+          <h3 class="project-title">F.R.E.D. - V2</h3>
+          <p>Integrated Intelligent System Architecture implementing schema compliance, high-availability routing, and real-time inference optimization (<200ms latency).</p>
+          <a href="https://github.com/Ian-M05/FRED-V2" target="_blank" class="btn btn-primary">View on GitHub</a>
         </div>
       </div>
       
       <div class="project-card fade-in-up" style="animation-delay: 0.2s;">
         <div class="project-icon-box">
-          <i class="fas fa-laptop"></i>
+          <i class="fas fa-building"></i>
         </div>
         <div class="project-content">
-          <span class="project-category">Web Development</span>
-          <h3 class="project-title">Portfolio Website</h3>
-          <p>A modern, responsive portfolio website built with Jekyll and custom CSS to showcase my projects and skills.</p>
-          <a href="/projects#portfolio-website" class="btn btn-primary">Learn More</a>
+          <span class="project-category">Capstone Project</span>
+          <h3 class="project-title">CoStar Group Collaboration</h3>
+          <p>Acting as Technical Point of Contact, translating business needs into technical specifications for a scalable AI architecture.</p>
+          <a href="/projects#costar" class="btn btn-primary">Details</a>
         </div>
       </div>
 
@@ -128,10 +137,10 @@ layout: home
         <div class="education-details">
           <div class="education-header">
             <h3>Virginia Commonwealth University</h3>
-            <span class="project-tag">2023 - 2027</span>
+            <span class="project-tag">2023 - 2028</span>
           </div>
-          <h4 class="education-degree">Bachelor of Science, Computer Science</h4>
-          <p class="education-minor">Minor in Artificial Intelligence</p>
+          <h4 class="education-degree">M.S. Computer Science (Accelerated) & B.S.</h4>
+          <p class="education-minor">Minor in Artificial Intelligence | Expected Graduation: May 2027</p>
           
           <div class="education-stats">
             <div class="stat-box">
@@ -139,8 +148,8 @@ layout: home
               <span class="stat-value">3.9</span>
             </div>
             <div class="stat-box">
-              <span class="stat-label">MAJOR GPA</span>
-              <span class="stat-value">4.0</span>
+              <span class="stat-label">Honors</span>
+              <span class="stat-value" style="font-size: 1rem;">Dean's List / Scholar</span>
             </div>
           </div>
           
