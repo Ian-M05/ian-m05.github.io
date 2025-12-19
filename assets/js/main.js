@@ -78,11 +78,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const navbarToggle = document.querySelector('.navbar-toggle');
   const mainNav = document.querySelector('.main-navigation');
   const navigationList = document.querySelector('.navigation-list');
+  const navOverlay = document.querySelector('.nav-overlay');
   
   console.log("Navigation elements:", {
     toggle: navbarToggle ? "Found" : "Not found",
     nav: mainNav ? "Found" : "Not found",
-    list: navigationList ? "Found" : "Not found"
+    list: navigationList ? "Found" : "Not found",
+    overlay: navOverlay ? "Found" : "Not found"
   });
   
   // Safari-specific navigation fix
@@ -141,6 +143,11 @@ document.addEventListener('DOMContentLoaded', function() {
       navbarToggle.classList.toggle('active');
       document.body.classList.toggle('menu-open');
       
+      // Toggle overlay
+      if (navOverlay) {
+        navOverlay.classList.toggle('active');
+      }
+      
       // Toggle additional navigation styles for Safari
       if (mainNav.classList.contains('active')) {
         console.log("Opening menu");
@@ -181,40 +188,20 @@ document.addEventListener('DOMContentLoaded', function() {
     navbarToggle.setAttribute('aria-expanded', 'false');
   }
   
-  // Close mobile menu when clicking outside (with Safari enhancements)
-  document.addEventListener('click', function(event) {
-    if (mainNav && mainNav.classList.contains('active')) {
-      if (!event.target.closest('.main-navigation') && !event.target.closest('.navbar-toggle')) {
-        console.log("Closing menu from outside click");
-        
-        mainNav.classList.remove('active');
-        navbarToggle.classList.remove('active');
-        document.body.classList.remove('menu-open');
-        navbarToggle.setAttribute('aria-expanded', 'false');
-        
-        // Additional style removal for Safari
-        if (isMobile.Safari() || isMobile.iOS()) {
-          mainNav.style.right = "-100%";
-          mainNav.style.opacity = "0";
-        }
-        
-        // Handle scroll unlocking on iOS/Safari
-        if (isMobile.iOS() || isMobile.Safari()) {
-          unlockScroll();
-        }
-      }
-    }
-  });
-  
-  // Close mobile menu when window is resized to desktop size
-  window.addEventListener('resize', function() {
-    if (window.innerWidth > 768 && mainNav && mainNav.classList.contains('active')) {
-      console.log("Closing menu from resize");
+  // Close mobile menu when clicking outside or on overlay (with Safari enhancements)
+  const closeMenu = function() {
+    if (mainNav && navbarToggle) {
+      console.log("Closing menu");
       
       mainNav.classList.remove('active');
       navbarToggle.classList.remove('active');
       document.body.classList.remove('menu-open');
       navbarToggle.setAttribute('aria-expanded', 'false');
+      
+      // Remove overlay
+      if (navOverlay) {
+        navOverlay.classList.remove('active');
+      }
       
       // Additional style removal for Safari
       if (isMobile.Safari() || isMobile.iOS()) {
@@ -227,6 +214,27 @@ document.addEventListener('DOMContentLoaded', function() {
         unlockScroll();
       }
     }
+  };
+  
+  // Close on overlay click
+  if (navOverlay) {
+    navOverlay.addEventListener('click', closeMenu);
+  }
+  
+  // Close mobile menu when clicking outside (with Safari enhancements)
+  document.addEventListener('click', function(event) {
+    if (mainNav && mainNav.classList.contains('active')) {
+      if (!event.target.closest('.main-navigation') && !event.target.closest('.navbar-toggle')) {
+        closeMenu();
+      }
+    }
+  });
+  
+  // Close mobile menu when window is resized to desktop size
+  window.addEventListener('resize', function() {
+    if (window.innerWidth > 768 && mainNav && mainNav.classList.contains('active')) {
+      closeMenu();
+    }
   });
   
   // Handle clicking on menu items on mobile (with Safari enhancements)
@@ -237,27 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("Menu item clicked");
         
         if (window.innerWidth <= 768) {
-          // Close the menu when a menu item is clicked
-          if (mainNav) {
-            mainNav.classList.remove('active');
-            
-            // Additional style removal for Safari
-            if (isMobile.Safari() || isMobile.iOS()) {
-              mainNav.style.right = "-100%";
-              mainNav.style.opacity = "0";
-            }
-            
-            if (navbarToggle) {
-              navbarToggle.classList.remove('active');
-              navbarToggle.setAttribute('aria-expanded', 'false');
-            }
-            document.body.classList.remove('menu-open');
-            
-            // Handle scroll unlocking on iOS/Safari
-            if (isMobile.iOS() || isMobile.Safari()) {
-              unlockScroll();
-            }
-          }
+          closeMenu();
         }
       });
     });
