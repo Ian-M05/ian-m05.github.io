@@ -1,18 +1,27 @@
 .site-title {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
+  line-height: 1.1;
+  gap: 0.1rem;
+  text-decoration: none;
   
   .title-name {
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 800;
     color: $secondary-color;
+    letter-spacing: -0.02em;
   }
   
   .site-subtitle {
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: 600;
     color: $manilla;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &:hover {
+    .title-name { color: $primary-color; }
   }
 }
 
@@ -22,13 +31,16 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 1.5rem;
+    gap: 2rem;
+    align-items: center;
 
     li a {
       font-weight: 600;
       color: $text-light;
       position: relative;
       padding: 0.5rem 0;
+      font-size: 1rem;
+      transition: all 0.3s ease;
       
       &:after {
         content: '';

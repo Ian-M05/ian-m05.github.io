@@ -9,7 +9,7 @@
   border-top: 5px solid $secondary-color;
   border-bottom: 1px solid $border-color;
   background-color: $primary-color;
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -20,13 +20,16 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex-wrap: nowrap;
+    gap: 2rem;
   }
 
   a {
     color: $text-light;
     text-decoration: none;
+    transition: all 0.3s ease;
     &:hover {
-      color: $manilla;
+      color: $secondary-color;
     }
   }
 }
@@ -94,19 +97,44 @@
 .section {
   padding: 4rem 0;
   
-  &.section-light { background-color: $light-bg; }
+  &.section-light { 
+    background-color: $light-bg; 
+    
+    a:not(.btn) {
+      color: darken($secondary-color, 20%);
+      font-weight: 600;
+      border-bottom: 1px solid rgba($secondary-color, 0.3);
+      &:hover {
+        color: $primary-color;
+        border-bottom-color: $primary-color;
+      }
+    }
+  }
+  
   &.section-dark {
     background-color: $dark-bg;
     color: $text-light;
     h2, h3 { color: $text-light; }
     p { color: rgba($text-light, 0.85); }
+    
+    h2:after {
+      background-color: $secondary-color;
+    }
   }
 }
 
 .section-title {
   text-align: center;
-  margin-bottom: 3rem;
-  h2 { font-size: 2.5rem; margin-bottom: 0.5rem; color: $secondary-color; }
+  margin-bottom: 4rem;
+  h2 { 
+    font-size: 2.75rem; 
+    margin-bottom: 0.75rem; 
+    color: $primary-color;
+    &:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
   p { font-size: 1.2rem; color: #4A3B30; max-width: 700px; margin: 0 auto; }
 }
 

@@ -86,10 +86,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   // Safari-specific navigation fix
-  if (isMobile.Safari() && mainNav) {
-    console.log("Applying Safari-specific fixes");
+  if (isMobile.Safari() && mainNav && window.innerWidth <= 768) {
+    console.log("Applying Safari-specific mobile fixes");
     
-    // Force navigation display style on Safari
+    // Force navigation display style on Safari mobile
     mainNav.style.display = "block";
     mainNav.style.right = "-100%";
     mainNav.style.opacity = "0";
