@@ -331,17 +331,23 @@
 
 // Contact List
 .contact-info-container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+  
+  .card {
+    .card-body {
+      padding: 3rem;
+    }
+  }
 }
 
 .contact-list {
   list-style: none;
-  margin: 1.5rem 0 0 0;
+  margin: 2rem 0 0 0;
   padding: 0;
   
   li { 
-    margin-bottom: 1.5rem; 
+    margin-bottom: 2rem; 
     &:last-child { margin-bottom: 0; } 
   }
 }
@@ -351,21 +357,21 @@
   align-items: center;
   
   .contact-icon-circle {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: rgba($secondary-color, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1.25rem;
+    margin-right: 1.75rem;
     flex-shrink: 0;
-    i { color: $secondary-color; font-size: 1.4rem; }
+    i { color: $secondary-color; font-size: 1.8rem; }
   }
   
   .contact-text {
-    h4 { margin: 0 0 0.25rem 0; color: $secondary-color; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
-    a, p { margin: 0; color: $primary-color; font-size: 1.1rem; font-weight: 500; }
+    h4 { margin: 0 0 0.4rem 0; color: $secondary-color; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700; }
+    a, p { margin: 0; color: $primary-color; font-size: 1.25rem; font-weight: 500; }
     a { border-bottom: 1px dotted $secondary-color; transition: all 0.3s ease; &:hover { color: $secondary-color; border-bottom-style: solid; } }
   }
 }
@@ -383,7 +389,7 @@
 
 .about-image {
   flex-shrink: 0;
-  width: 420px;
+  width: 550px;
   max-width: 100%;
   
   .profile-image {
