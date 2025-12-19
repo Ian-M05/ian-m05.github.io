@@ -19,7 +19,7 @@ layout: home
   </div>
 </section>
 
-<section class="section">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
       <h2>My Expertise</h2>
@@ -113,38 +113,38 @@ layout: home
   </div>
 </section>
 
-<section class="section">
+<section class="section bg-light">
   <div class="wrapper">
     <div class="section-title">
       <h2>Education</h2>
       <p>My academic journey</p>
     </div>
     
-    <div class="card fade-in-up">
-      <div class="project-card" style="border: none; box-shadow: none;">
-        <div class="project-icon-box" style="width: 150px; height: 150px; font-size: 3rem;">
+    <div class="card education-card fade-in-up">
+      <div class="education-content-box">
+        <div class="education-icon-box">
            <i class="fas fa-university"></i>
         </div>
-        <div class="project-content">
-          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-            <h3 style="margin: 0;">Virginia Commonwealth University</h3>
+        <div class="education-details">
+          <div class="education-header">
+            <h3>Virginia Commonwealth University</h3>
             <span class="project-tag">2023 - 2027</span>
           </div>
-          <h4 style="color: var(--secondary); margin: 0.5rem 0;">Bachelor of Science, Computer Science</h4>
-          <p style="font-style: italic; margin-bottom: 1rem;">Minor in Artificial Intelligence</p>
+          <h4 class="education-degree">Bachelor of Science, Computer Science</h4>
+          <p class="education-minor">Minor in Artificial Intelligence</p>
           
-          <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
-            <div style="background: var(--light-bg); padding: 0.75rem 1.5rem; border-radius: 8px; text-align: center;">
-              <span style="display: block; font-size: 0.8rem; font-weight: 700; color: var(--secondary);">GPA</span>
-              <span style="font-size: 1.25rem; font-weight: 800;">3.9</span>
+          <div class="education-stats">
+            <div class="stat-box">
+              <span class="stat-label">GPA</span>
+              <span class="stat-value">3.9</span>
             </div>
-            <div style="background: var(--light-bg); padding: 0.75rem 1.5rem; border-radius: 8px; text-align: center;">
-              <span style="display: block; font-size: 0.8rem; font-weight: 700; color: var(--secondary);">MAJOR GPA</span>
-              <span style="font-size: 1.25rem; font-weight: 800;">4.0</span>
+            <div class="stat-box">
+              <span class="stat-label">MAJOR GPA</span>
+              <span class="stat-value">4.0</span>
             </div>
           </div>
           
-          <h5>Key Coursework</h5>
+          <h5 class="mt-4">Key Coursework</h5>
           <div class="skill-container">
             <span class="skill-tag">Calculus 2</span>
             <span class="skill-tag">Data Structures & OOP</span>
@@ -158,10 +158,10 @@ layout: home
   </div>
 </section>
 
-<section class="section bg-light">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="text-center">
-      <div class="card" style="max-width: 800px; margin: 0 auto;">
+      <div class="card" style="max-width: 800px; margin: 0 auto; border-top: 5px solid var(--secondary);">
         <div class="feature-icon-box" style="background: none; color: var(--secondary); padding: 0; margin-bottom: 1rem;">
           <i class="fas fa-robot"></i>
         </div>

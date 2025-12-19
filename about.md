@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-<section class="section">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
       <h1 class="fade-in">About Me</h1>
@@ -75,7 +75,7 @@ permalink: /about/
   </div>
 </section>
 
-<section class="section">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
       <h2>Work Experience</h2>
@@ -133,7 +133,7 @@ permalink: /about/
   </div>
 </section>
 
-<section class="section">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
       <h2>Personal Interests</h2>

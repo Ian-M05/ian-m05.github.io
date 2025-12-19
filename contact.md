@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<section class="section">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
       <h1 class="fade-in">Get In Touch</h1>
@@ -67,7 +67,7 @@ permalink: /contact/
         </ul>
       </div>
       
-      <div class="card mt-2-desktop">
+      <div class="card">
         <h3>Current Status</h3>
         <p>I'm currently:</p>
         <ul class="status-list">

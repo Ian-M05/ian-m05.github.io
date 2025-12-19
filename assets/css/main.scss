@@ -23,6 +23,15 @@
   --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
   --transition: all 0.3s ease;
   --max-width: 1100px;
+  
+  // Spacing
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
 }
 
 // --- Base Styles ---
@@ -338,8 +347,8 @@ a {
 
 // Header
 .site-header {
-  background: white;
-  border-bottom: 1px solid var(--border);
+  background: var(--light-bg);
+  border-bottom: 2px solid var(--manilla);
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -429,10 +438,17 @@ a {
   gap: 2rem;
   max-width: 900px;
   margin: 0 auto;
+  align-items: stretch; // Ensure equal height cards
   
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
+}
+
+.contact-grid-container > .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-list {
@@ -507,6 +523,153 @@ a {
 .mt-2-desktop {
   @media (min-width: 769px) {
     margin-top: 2rem;
+  }
+}
+
+// Blog Post Page
+.blog-post-container {
+  background-color: var(--light-bg);
+  padding: 4rem 0;
+}
+
+.post {
+  background: white;
+  padding: 3.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  max-width: 850px;
+  margin: 0 auto;
+  
+  @media (max-width: 768px) {
+    padding: 2rem;
+  }
+  
+  .post-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    
+    .post-title {
+      font-size: 3rem;
+      margin-top: 0;
+      color: var(--primary);
+      line-height: 1.1;
+      
+      @media (max-width: 768px) {
+        font-size: 2.2rem;
+      }
+    }
+    
+    .post-meta {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      color: var(--text-medium);
+      font-weight: 500;
+      margin-bottom: 1rem;
+      
+      span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
+  }
+  
+  .post-content {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    
+    p { margin-bottom: 1.8rem; }
+    
+    h2, h3, h4 {
+      color: var(--secondary);
+      margin-top: 3rem;
+      margin-bottom: 1.2rem;
+    }
+    
+    blockquote {
+      border-left: 4px solid var(--secondary);
+      background: var(--light-bg);
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+      font-style: italic;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    pre {
+      background: var(--primary);
+      color: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 2rem 0;
+    }
+    
+    code {
+      background: var(--light-bg);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 0.9em;
+    }
+    
+    pre code {
+      background: transparent;
+      padding: 0;
+    }
+    
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 2rem 0;
+      box-shadow: var(--shadow-md);
+    }
+  }
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  gap: 2rem;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  
+  .post-nav-link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--light-bg);
+    border-radius: 8px;
+    transition: var(--transition);
+    border: 1px solid var(--border);
+    
+    &:hover {
+      background: var(--manilla);
+      transform: translateY(-3px);
+    }
+    
+    &.next { text-align: right; }
+    
+    .nav-label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--secondary);
+      margin-bottom: 0.5rem;
+    }
+    
+    .nav-title {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.1rem;
+    }
   }
 }
 
@@ -724,6 +887,97 @@ a {
   
   h3 { margin-top: 0; }
   p { color: var(--text-medium); margin-bottom: 1.5rem; }
+}
+
+// Education Card
+.education-card {
+  padding: 0;
+  overflow: hidden;
+  
+  .education-content-box {
+    display: flex;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  
+  .education-icon-box {
+    width: 200px;
+    background: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--secondary);
+    flex-shrink: 0;
+    
+    @media (max-width: 768px) {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  
+  .education-details {
+    padding: 3rem;
+    flex-grow: 1;
+    
+    @media (max-width: 768px) {
+      padding: 2rem;
+    }
+  }
+  
+  .education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    
+    h3 { margin: 0; }
+  }
+  
+  .education-degree {
+    color: var(--secondary);
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+  }
+  
+  .education-minor {
+    font-style: italic;
+    color: var(--text-medium);
+    margin-bottom: 2rem;
+  }
+  
+  .education-stats {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    
+    .stat-box {
+      background: var(--light-bg);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid var(--border);
+      
+      .stat-label {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      
+      .stat-value {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: var(--primary);
+      }
+    }
+  }
 }
 
 // Animations
