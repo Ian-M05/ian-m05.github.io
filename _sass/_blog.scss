@@ -1,5 +1,113 @@
 /* Blog Post Specific Styles */
 
+/* Blog Grid & Cards */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem !important;
+
+  .blog-date {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: $secondary-color;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-title {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.5rem;
+    color: $primary-color;
+    &:hover { color: $secondary-color; }
+  }
+
+  .blog-excerpt {
+    color: #4A3B30;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .blog-card-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid rgba($secondary-color, 0.1);
+    
+    .blog-author { font-weight: 600; color: $text-medium; font-size: 0.9rem; }
+    .blog-read-more { font-weight: 700; color: $secondary-color; }
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 4rem;
+
+  .pagination-current {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba($secondary-color, 0.2);
+    color: $secondary-color;
+    border-radius: 50%;
+    font-weight: 700;
+  }
+}
+
+/* Search */
+.blog-search {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  
+  .blog-search-form {
+    display: flex;
+    position: relative;
+    
+    .blog-search-input {
+      width: 100%;
+      padding: 0.8rem 1.5rem;
+      border: 2px solid $border-color;
+      border-radius: 50px;
+      font-size: 1rem;
+      &:focus { border-color: $secondary-color; outline: none; }
+    }
+    
+    .blog-search-button {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      bottom: 5px;
+      width: 40px;
+      background-color: $secondary-color;
+      border: none;
+      border-radius: 50%;
+      color: white;
+      cursor: pointer;
+      &:hover { background-color: $secondary-dark; }
+    }
+  }
+}
+
+/* Post Container Adjustments */
 .blog-post-container {
   background-color: var(--background);
   padding-bottom: 4rem;
