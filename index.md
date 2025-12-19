@@ -6,7 +6,7 @@ layout: home
   <div class="wrapper">
     <div class="hero-content fade-in">
       <h1 class="hero-title">Hi, I'm <span>Ian Mullins</span></h1>
-      <p class="hero-subtitle">B.S. Computer Science student (AI Minor, VCU, GPA 3.9) aspiring to be an AI Engineer. Bringing experience in reliable data pipelines, system automation, and critical infrastructure compliance.</p>
+      <p class="hero-subtitle">M.S. Computer Science Candidate (Accelerated B.S./M.S., VCU, GPA 3.9) aspiring to be an AI Engineer. Bringing experience in reliable data pipelines, system automation, and critical infrastructure compliance.</p>
       <div class="hero-cta">
         <a href="/projects" class="btn btn-primary">
           <i class="fas fa-code"></i> View My Projects
