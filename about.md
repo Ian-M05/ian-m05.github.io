@@ -8,7 +8,7 @@ permalink: /about/
   <div class="wrapper">
     <div class="section-title">
       <h1 class="fade-in">About Me</h1>
-      <p>Computer Science student with a passion for AI and machine learning</p>
+      <p>Computer Science student with a focus on reliable data pipelines and system automation</p>
     </div>
 
     <div class="about-container fade-in-up">
@@ -22,11 +22,11 @@ permalink: /about/
       </div>
       
       <div class="about-content">
-        <p>I am a Computer Science Student at Virginia Commonwealth University, specializing in <strong>AI & Data Strategy</strong>. My work focuses on intelligent agent architectures, data pipeline engineering, and systems optimization.</p>
+        <p>I am a Computer Science student at Virginia Commonwealth University, pursuing an accelerated M.S. program and specializing in Artificial Intelligence. I am passionate about building reliable data systems and applying machine learning to solve complex data challenges as an aspiring AI Engineer.</p>
         
-        <p>As the architect of <strong>F.R.E.D.</strong>, I have experience designing high-availability routing systems, enforcing schema compliance for asynchronous data flows, and optimizing local model inference on edge platforms like Raspberry Pi. My background bridges the gap between raw data collection and strategic model deployment.</p>
+        <p>My work centers on the intersection of data engineering and AI, where I develop systems that prioritize data integrity, deterministic outputs, and efficient processing. Whether it's architecting local-first intelligent data systems or optimizing enterprise AI pipelines, I focus on creating robust and scalable solutions.</p>
         
-        <p>I am currently pursuing an accelerated M.S. in Computer Science (2027-2028) and serving as the Technical Point of Contact for a Capstone project with <strong>CoStar Group</strong>, translating complex business requirements into scalable AI specifications.</p>
+        <p>Beyond my technical pursuits, I am an active member of the Linux community and a participant in the VCU Grappling Club, where I apply the same discipline and problem-solving mindset I bring to my engineering projects.</p>
       </div>
     </div>
   </div>
@@ -36,39 +36,37 @@ permalink: /about/
   <div class="wrapper">
     <div class="section-title">
       <h2>Technical Skills</h2>
-      <p>Technologies and tools I work with</p>
+      <p>Technologies and tools I work with daily</p>
     </div>
     
     <div class="three-column-grid fade-in-up">
       <div class="card">
-        <h3>AI Architecture</h3>
+        <h3>Programming & Data</h3>
         <div class="skill-container">
-          <span class="skill-tag">Multi-Agent Systems</span>
-          <span class="skill-tag">Data Strategy</span>
-          <span class="skill-tag">RAG Optimization</span>
-          <span class="skill-tag">Knowledge Graphs</span>
-          <span class="skill-tag">Model Validation</span>
+          <span class="skill-tag">Python (Pandas, NumPy, Scikit-learn)</span>
+          <span class="skill-tag">SQL & DuckDB</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Bash/Shell</span>
         </div>
       </div>
       
       <div class="card">
-        <h3>Systems Engineering</h3>
+        <h3>AI & Machine Learning</h3>
         <div class="skill-container">
-          <span class="skill-tag">V-Model Lifecycle</span>
-          <span class="skill-tag">Trade Studies</span>
-          <span class="skill-tag">V&V Procedures</span>
-          <span class="skill-tag">Root Cause Analysis</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">Hugging Face Transformers</span>
+          <span class="skill-tag">Agentic Workflows</span>
+          <span class="skill-tag">Prompt & Context Engineering</span>
         </div>
       </div>
       
       <div class="card">
-        <h3>Core Technologies</h3>
+        <h3>Infrastructure & Web</h3>
         <div class="skill-container">
-          <span class="skill-tag">Python (SQL/Bash)</span>
-          <span class="skill-tag">PyTorch/HF</span>
-          <span class="skill-tag">FastAPI/Flask</span>
-          <span class="skill-tag">Linux (RHEL/Ubuntu)</span>
-          <span class="skill-tag">Intune/Enterprise IT</span>
+          <span class="skill-tag">Flask & FastAPI</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Socket.IO</span>
         </div>
       </div>
     </div>
@@ -78,10 +76,11 @@ permalink: /about/
 <section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
-      <h2>Work Experience</h2>
-      <p>Professional roles and responsibilities</p>
+      <h2>Work & Project Experience</h2>
+      <p>Professional roles and academic collaborations</p>
     </div>
     
+    <!-- CoStar -->
     <div class="project-card fade-in-up">
       <div class="project-icon-box">
         <i class="fas fa-building"></i>
@@ -91,36 +90,36 @@ permalink: /about/
           <h3 style="margin: 0;">CoStar Group</h3>
           <span class="project-tag">2025 - Present</span>
         </div>
-        <h4 style="color: var(--secondary); margin: 0.5rem 0;">Technical Point of Contact</h4>
-        <p style="font-style: italic; margin-bottom: 1rem;">Capstone Project - Scalable AI Architecture</p>
-        
+        <h4 style="color: var(--secondary); margin: 0.5rem 0;">Capstone Project — AI Solution Development</h4>
+        <p style="font-style: italic; margin-bottom: 1rem;">Agile Team (Bi-weekly sprints)</p>
         <ul class="feature-list">
-          <li>Facilitating requirements flow-down between CoStar stakeholders and development team to ensure alignment with business goals.</li>
-          <li>Conducted Stakeholder Requirements Definition to translate business needs into technical specifications.</li>
+          <li>Developing an enterprise AI solution under NDA to improve business process efficiency.</li>
+          <li>Owning data pipeline automation and model integration for the project.</li>
         </ul>
       </div>
     </div>
 
-    <div class="project-card fade-in-up" style="margin-top: 2rem;">
+    <!-- TMG -->
+    <div class="project-card fade-in-up mt-2">
       <div class="project-icon-box">
         <i class="fas fa-laptop-code"></i>
       </div>
       <div class="project-content">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
           <h3 style="margin: 0;">TMG/Dominion Management</h3>
-          <span class="project-tag">July - Aug 2025</span>
+          <span class="project-tag">July – August 2025</span>
         </div>
         <h4 style="color: var(--secondary); margin: 0.5rem 0;">IT Intern</h4>
-        <p style="font-style: italic; margin-bottom: 1rem;">Enterprise IT Operations</p>
-        
+        <p style="font-style: italic; margin-bottom: 1rem;">Virginia Beach, VA</p>
         <ul class="feature-list">
-          <li>Standardized Mac onboarding with Intune runbooks, reducing day-one blockers for new users.</li>
-          <li>Managed access controls and resolved high-volume HW/SW/network tickets across the organization.</li>
+          <li>Standardized onboarding documentation and managed access controls to ensure data governance.</li>
+          <li>Resolved hardware and software tickets, maintaining business continuity and productivity.</li>
         </ul>
       </div>
     </div>
 
-    <div class="project-card fade-in-up" style="margin-top: 2rem;">
+    <!-- Fire Sprinkler -->
+    <div class="project-card fade-in-up mt-2">
       <div class="project-icon-box">
         <i class="fas fa-fire-extinguisher"></i>
       </div>
@@ -130,11 +129,10 @@ permalink: /about/
           <span class="project-tag">May 2023 - Present</span>
         </div>
         <h4 style="color: var(--secondary); margin: 0.5rem 0;">Technical Inspector Assistant</h4>
-        <p style="font-style: italic; margin-bottom: 1rem;">V&V / Safety Compliance</p>
-        
+        <p style="font-style: italic; margin-bottom: 1rem;">Mechanicsville, VA</p>
         <ul class="feature-list">
-          <li>Executed rigorous system verification (V&V) procedures on 100+ commercial installations ensuring 100% adherence to safety codes.</li>
-          <li>Utilized compliance checklists and technical specifications to identify and resolve critical system leaks.</li>
+          <li>Conducted safety compliance inspections on 100+ commercial critical infrastructure systems.</li>
+          <li>Standardized data collection checklists to streamline reporting accuracy and ensure audit readiness.</li>
         </ul>
       </div>
     </div>
@@ -145,26 +143,26 @@ permalink: /about/
   <div class="wrapper">
     <div class="section-title">
       <h2>Extracurricular Activities</h2>
-      <p>Communities and groups I'm actively involved with</p>
+      <p>Community involvement and personal development</p>
     </div>
     
     <div class="three-column-grid fade-in-up">
       <div class="card text-center">
         <div class="contact-icon"><i class="fas fa-robot"></i></div>
         <h3>AI Community</h3>
-        <p>Active member of Ollama, Anthropic, and OpenAI Discord servers discussing latest prompting and language model techniques</p>
+        <p>Active participant in Ollama and Anthropic research communities, discussing agentic workflows and local inference.</p>
       </div>
       
       <div class="card text-center">
         <div class="contact-icon"><i class="fas fa-terminal"></i></div>
         <h3>Linux Command Line</h3>
-        <p>Completed certification in essential Linux commands, gaining skills in system management and administration</p>
+        <p>Completed intensive training in Linux system management and administrative terminal operations.</p>
       </div>
       
       <div class="card text-center">
         <div class="contact-icon"><i class="fas fa-fist-raised"></i></div>
         <h3>VCU Grappling Club</h3>
-        <p>Competed in tournaments, demonstrating discipline and resilience</p>
+        <p>Active member and competitor, demonstrating discipline and resilience in both training and competition.</p>
       </div>
     </div>
   </div>

@@ -32,18 +32,6 @@ permalink: /contact/
           <li>
             <div class="contact-item">
               <div class="contact-icon-circle">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div>
-                <h4>Phone</h4>
-                <a href="tel:7576348262">(757) 634-8262</a>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="contact-item">
-              <div class="contact-icon-circle">
                 <i class="fab fa-github"></i>
               </div>
               <div>

@@ -6,7 +6,7 @@ layout: home
   <div class="wrapper">
     <div class="hero-content fade-in">
       <h1 class="hero-title">Hi, I'm <span>Ian Mullins</span></h1>
-      <p class="hero-subtitle">Computer Science Student specializing in AI & Data Strategy</p>
+      <p class="hero-subtitle">B.S. Computer Science student (AI Minor, VCU, GPA 3.9) aspiring to be an AI Engineer. Bringing experience in reliable data pipelines, system automation, and critical infrastructure compliance.</p>
       <div class="hero-cta">
         <a href="/projects" class="btn btn-primary">
           <i class="fas fa-code"></i> View My Projects
@@ -19,50 +19,41 @@ layout: home
   </div>
 </section>
 
-<section class="section">
-  <div class="wrapper">
-    <div class="section-title">
-      <h2>Objective</h2>
-      <p style="max-width: 800px; margin: 1rem auto; font-size: 1.2rem; color: var(--text-dark);">Computer Science Student specializing in AI & Data Strategy (3.9 GPA) with experience in intelligent agent architectures. Seeking to apply background in data analysis, model development, and scalable Python implementation to the Enterprise Data platform team internship.</p>
-    </div>
-  </div>
-</section>
-
 <section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
-      <h2>Core Competencies</h2>
-      <p>Technical expertise and strategic domains</p>
+      <h2>My Expertise</h2>
+      <p>Areas where I excel and continue to grow</p>
     </div>
     
     <div class="three-column-grid">
       <div class="feature-card fade-in-up">
         <div class="feature-icon-box">
-          <i class="fas fa-network-wired"></i>
+          <i class="fas fa-database"></i>
         </div>
         <div class="feature-content">
-          <h3>Data & AI Architecture</h3>
-          <p>Data Pipeline Architecture, Model Development, RAG Optimization, Knowledge Graph Implementation, and Trade Studies.</p>
+          <h3>Data Engineering</h3>
+          <p>Expertise in data preprocessing, cleaning, and persistence using DuckDB and SQL for reliable, deterministic outputs.</p>
         </div>
       </div>
       
       <div class="feature-card fade-in-up" style="animation-delay: 0.2s;">
         <div class="feature-icon-box">
-          <i class="fas fa-microchip"></i>
+          <i class="fas fa-brain"></i>
         </div>
         <div class="feature-content">
-          <h3>Systems Engineering</h3>
-          <p>Inference Optimization, Vector Database Management, Automated Testing, and Linux (RHEL/Ubuntu).</p>
+          <h3>AI & Machine Learning</h3>
+          <p>Experience with PyTorch, Scikit-learn, and Transformers for model validation and agentic workflow development.</p>
         </div>
       </div>
       
       <div class="feature-card fade-in-up" style="animation-delay: 0.4s;">
         <div class="feature-icon-box">
-          <i class="fas fa-chart-line"></i>
+          <i class="fas fa-server"></i>
         </div>
         <div class="feature-content">
-          <h3>Data Strategy</h3>
-          <p>Data Collection & Cleaning, Dashboards & Reporting, and Performance Monitoring.</p>
+          <h3>Infrastructure</h3>
+          <p>Skilled in system automation, Linux management, and developing reliable APIs with Flask and FastAPI.</p>
         </div>
       </div>
     </div>
@@ -79,36 +70,36 @@ layout: home
     <div class="projects-grid">
       <div class="project-card fade-in-up">
         <div class="project-icon-box">
-          <i class="fas fa-brain"></i>
+          <i class="fas fa-project-diagram"></i>
         </div>
         <div class="project-content">
           <span class="project-category">Flagship Project</span>
-          <h3 class="project-title">F.R.E.D. - V2</h3>
-          <p>Integrated Intelligent System Architecture implementing schema compliance, high-availability routing, and real-time inference optimization (<200ms latency).</p>
-          <a href="https://github.com/Ian-M05/FRED-V2" target="_blank" class="btn btn-primary">View on GitHub</a>
+          <h3 class="project-title">F.R.E.D.</h3>
+          <p>Local-first Intelligent Data System featuring JSON schema validation, DuckDB persistence, and a real-time monitoring dashboard.</p>
+          <a href="/projects#fred" class="btn btn-primary">Learn More</a>
         </div>
       </div>
       
       <div class="project-card fade-in-up" style="animation-delay: 0.2s;">
         <div class="project-icon-box">
-          <i class="fas fa-building"></i>
+          <i class="fas fa-chart-line"></i>
         </div>
         <div class="project-content">
           <span class="project-category">Capstone Project</span>
-          <h3 class="project-title">CoStar Group Collaboration</h3>
-          <p>Acting as Technical Point of Contact, translating business needs into technical specifications for a scalable AI architecture.</p>
-          <a href="/projects#costar" class="btn btn-primary">Details</a>
+          <h3 class="project-title">CoStar Group Enterprise AI</h3>
+          <p>Developing an enterprise AI solution under NDA; automating data pipelines and model integration to improve efficiency.</p>
+          <a href="/projects#costar" class="btn btn-primary">Learn More</a>
         </div>
       </div>
 
       <div class="project-card fade-in-up" style="animation-delay: 0.4s;">
         <div class="project-icon-box">
-          <i class="fas fa-heart"></i>
+          <i class="fas fa-robot"></i>
         </div>
         <div class="project-content">
-          <span class="project-category">Machine Learning</span>
-          <h3 class="project-title">RoBERTa Emotion Detection</h3>
-          <p>Fine-tuned RoBERTa model for emotion classification with 81.5% accuracy across 6 emotional categories.</p>
+          <span class="project-category">NLP Research</span>
+          <h3 class="project-title">RoBERTa Emotion Classifier</h3>
+          <p>Fine-tuned RoBERTa model on tweet_eval/emotion with ~81.5% F1 score, demonstrating end-to-end ML development.</p>
           <a href="/projects#roberta-emotion" class="btn btn-primary">Learn More</a>
         </div>
       </div>
@@ -139,8 +130,8 @@ layout: home
             <h3>Virginia Commonwealth University</h3>
             <span class="project-tag">2023 - 2028</span>
           </div>
-          <h4 class="education-degree">M.S. Computer Science (Accelerated) & B.S.</h4>
-          <p class="education-minor">Minor in Artificial Intelligence | Expected Graduation: May 2027</p>
+          <h4 class="education-degree">M.S. Computer Science (Accelerated B.S. -> M.S.)</h4>
+          <p class="education-minor">B.S. in Computer Science, Minor in Artificial Intelligence — Expected Graduation: May 2027</p>
           
           <div class="education-stats">
             <div class="stat-box">
@@ -148,18 +139,18 @@ layout: home
               <span class="stat-value">3.9</span>
             </div>
             <div class="stat-box">
-              <span class="stat-label">Honors</span>
-              <span class="stat-value" style="font-size: 1rem;">Dean's List / Scholar</span>
+              <span class="stat-label">Awards</span>
+              <span class="stat-value" style="font-size: 1rem;">Wright Engineering Access Scholarship</span>
             </div>
           </div>
           
           <h5 class="mt-4">Key Coursework</h5>
           <div class="skill-container">
-            <span class="skill-tag">Calculus 2</span>
-            <span class="skill-tag">Data Structures & OOP</span>
-            <span class="skill-tag">Computer Systems</span>
-            <span class="skill-tag">Computer Organization</span>
+            <span class="skill-tag">Data Structures & Algorithms</span>
+            <span class="skill-tag">Machine Learning</span>
             <span class="skill-tag">Software Engineering</span>
+            <span class="skill-tag">Artificial Intelligence</span>
+            <span class="skill-tag">Linear Algebra</span>
           </div>
         </div>
       </div>

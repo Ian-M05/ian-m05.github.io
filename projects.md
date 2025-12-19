@@ -4,46 +4,47 @@ title: Projects
 permalink: /projects/
 ---
 
-<section class="section">
+<section class="section bg-manilla">
   <div class="wrapper">
     <div class="section-title">
-      <h1 class="fade-in">Technical Portfolio</h1>
-      <p>Showcasing expertise in AI Architecture, Systems Engineering, and Data Strategy</p>
+      <h1 class="fade-in">My Projects</h1>
+      <p>A showcase of my work in AI, Data Engineering, and Systems Automation</p>
     </div>
     
     <div class="projects-grid">
-      <!-- F.R.E.D. V2 -->
-      <div class="project-card fade-in-up" id="fred-v2">
+      <!-- F.R.E.D. -->
+      <div class="project-card fade-in-up" id="fred">
         <div class="project-icon-box">
-          <i class="fas fa-brain"></i>
+          <i class="fas fa-project-diagram"></i>
         </div>
         <div class="project-content">
           <span class="project-category">Flagship Project</span>
-          <h2 class="project-title">F.R.E.D. - Integrated Intelligent System Architecture</h2>
-          <p class="project-description">A creator-architected intelligent system designed for high-availability routing, schema compliance, and real-time inference optimization on constrained platforms.</p>
+          <h2 class="project-title">F.R.E.D. — Local-first Intelligent Data System</h2>
+          <p class="project-description">A creator-built architecture focusing on data integrity, deterministic outputs, and efficient edge computing processing.</p>
           
           <div class="project-features">
-            <h4>System Architecture & Data Strategy:</h4>
+            <h4>Key Features:</h4>
             <ul class="feature-list">
-              <li>Defined Data Flow Architectures to enforce schema compliance between asynchronous subsystems; ensured data integrity and deterministic outputs.</li>
-              <li>Architected a high-availability routing subsystem implementing automatic retry logic and exponential backoff.</li>
-              <li>Developed a test matrix to validate inference latency requirements (<200ms) under heavy data load.</li>
-              <li>Led integration of local LLMs on constrained platforms (Raspberry Pi), managing memory overhead and security protocols.</li>
-              <li>Performed Trade Studies on compute architectures to optimize SWaP (Size, Weight, and Power) for edge deployment.</li>
+              <li><strong>Data Integrity:</strong> Engineered a strict JSON schema validation system for deterministic model outputs.</li>
+              <li><strong>Persistent Storage:</strong> Built an L2 data store using DuckDB for efficient querying of historical context.</li>
+              <li><strong>Knowledge Graph:</strong> Developed an L3 knowledge graph to map complex relationships between data points.</li>
+              <li><strong>Real-Time Monitoring:</strong> Built a live dashboard with bidirectional communication via Flask-SocketIO.</li>
+              <li><strong>Edge Computing:</strong> Deployed a wearable interface on a Raspberry Pi using WebRTC for field-relevant operations.</li>
+              <li><strong>Resource Optimization:</strong> Centralized Ollama model manager for pooling, streaming, and vision-agent chains.</li>
             </ul>
           </div>
           
           <div class="project-tags">
             <span class="project-tag">Python</span>
-            <span class="project-tag">LLMs</span>
-            <span class="project-tag">Systems Engineering</span>
-            <span class="project-tag">V-Model</span>
-            <span class="project-tag">Edge AI</span>
+            <span class="project-tag">DuckDB</span>
+            <span class="project-tag">Flask-SocketIO</span>
+            <span class="project-tag">Ollama API</span>
+            <span class="project-tag">WebRTC</span>
           </div>
           
           <div class="project-links">
             <a href="https://github.com/Ian-M05/FRED-V2" target="_blank" class="btn btn-primary">
-              <i class="fab fa-github"></i> View F.R.E.D. V2
+              <i class="fab fa-github"></i> View on GitHub
             </a>
           </div>
         </div>
@@ -52,26 +53,34 @@ permalink: /projects/
       <!-- CoStar Group -->
       <div class="project-card fade-in-up" id="costar" style="animation-delay: 0.2s;">
         <div class="project-icon-box">
-          <i class="fas fa-building"></i>
+          <i class="fas fa-chart-line"></i>
         </div>
         <div class="project-content">
-          <span class="project-category">Capstone Project (2025-Present)</span>
-          <h2 class="project-title">CoStar Group AI Collaboration</h2>
-          <p class="project-description">Technical Point of Contact facilitating requirements flow-down and stakeholder alignment for scalable AI architectures.</p>
+          <span class="project-category">Capstone Project</span>
+          <h2 class="project-title">CoStar Group Enterprise AI</h2>
+          <p class="project-description">Collaboration with an Agile team to develop a scalable enterprise AI solution, focusing on business process optimization.</p>
           
           <div class="project-features">
-            <h4>Key Contributions:</h4>
+            <h4>Key Features:</h4>
             <ul class="feature-list">
-              <li>Acting as Technical Point of Contact between stakeholders and development team.</li>
-              <li>Conducted Stakeholder Requirements Definition to translate business needs into technical specifications.</li>
-              <li>Ensuring alignment with business goals for scalable AI architecture deployment.</li>
+              <li>Operating in bi-weekly sprints to translate business needs into technical specifications.</li>
+              <li>Owned data pipeline automation, reducing manual data entry requirements.</li>
+              <li>Integrated LLM model endpoints into existing business workflows.</li>
+              <li>Implemented rigorous testing and validation procedures for model accuracy.</li>
             </ul>
           </div>
           
           <div class="project-tags">
-            <span class="project-tag">Stakeholder Management</span>
-            <span class="project-tag">AI Architecture</span>
-            <span class="project-tag">Requirements Engineering</span>
+            <span class="project-tag">Agile</span>
+            <span class="project-tag">Data Automation</span>
+            <span class="project-tag">Enterprise AI</span>
+            <span class="project-tag">Python</span>
+          </div>
+          
+          <div class="project-links">
+            <a href="/about" class="btn btn-primary">
+              <i class="fas fa-info-circle"></i> Project Details
+            </a>
           </div>
         </div>
       </div>
@@ -83,15 +92,16 @@ permalink: /projects/
         </div>
         <div class="project-content">
           <span class="project-category">Machine Learning</span>
-          <h2 class="project-title">RoBERTa Emotion Detection</h2>
-          <p class="project-description">Fine-tuned RoBERTa on tweet_eval/emotion with PyTorch + HF Transformers; ~81.5% macro-F1 across 4 classes.</p>
+          <h2 class="project-title">RoBERTa Emotion Classifier</h2>
+          <p class="project-description">Fine-tuned NLP model designed to accurately classify text into emotional categories with high precision.</p>
           
           <div class="project-features">
             <h4>Key Features:</h4>
             <ul class="feature-list">
-              <li>Fine-tuned RoBERTa on tweet_eval/emotion with PyTorch + HF Transformers.</li>
-              <li>Integrated into a chatbot for empathetic responses.</li>
-              <li>Optimized system performance with GPU acceleration and efficient text preprocessing.</li>
+              <li>Fine-tuned RoBERTa on tweet_eval/emotion with PyTorch (~81.5% F1 score).</li>
+              <li>Demonstrated end-to-end model development from data selection to evaluation.</li>
+              <li>Optimized training hyper-parameters for peak performance on small-scale datasets.</li>
+              <li>Implemented advanced text preprocessing to handle noise in social media data.</li>
             </ul>
           </div>
           
@@ -109,34 +119,6 @@ permalink: /projects/
           </div>
         </div>
       </div>
-
-      <!-- IT Internship -->
-      <div class="project-card fade-in-up" id="tmg-internship" style="animation-delay: 0.6s;">
-        <div class="project-icon-box">
-          <i class="fas fa-network-wired"></i>
-        </div>
-        <div class="project-content">
-          <span class="project-category">Work Experience</span>
-          <h2 class="project-title">IT Intern - TMG/Dominion Management</h2>
-          <p class="project-description">Standardized Mac onboarding and managed enterprise access controls.</p>
-          
-          <div class="project-features">
-            <h4>Key Accomplishments:</h4>
-            <ul class="feature-list">
-              <li>Standardized Mac onboarding with Intune runbooks.</li>
-              <li>Managed access controls and resolved HW/SW/network tickets.</li>
-              <li>Reduced day-one blockers and improved user productivity through automated workflows.</li>
-            </ul>
-          </div>
-          
-          <div class="project-tags">
-            <span class="project-tag">Intune</span>
-            <span class="project-tag">Mac Management</span>
-            <span class="project-tag">Access Control</span>
-            <span class="project-tag">IT Operations</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -144,45 +126,13 @@ permalink: /projects/
 <section class="section bg-light">
   <div class="wrapper">
     <div class="section-title">
-      <h2>Technical Background</h2>
-      <p>Structured approach to systems and risk management</p>
+      <h2>More Projects on GitHub</h2>
+      <p>I'm constantly building and experimenting with new technologies.</p>
     </div>
     
-    <div class="three-column-grid">
-      <div class="card">
-        <h3>Systems Engineering</h3>
-        <ul class="feature-list">
-          <li>Structured outputs & Tool Calling</li>
-          <li>Knowledge Graphs & Semantic Search</li>
-          <li>V-Model Lifecycle & V&V Procedures</li>
-          <li>Risk Management & Root Cause Analysis</li>
-        </ul>
-      </div>
-      
-      <div class="card">
-        <h3>AI/ML Stack</h3>
-        <ul class="feature-list">
-          <li>Multi-Agent Systems</li>
-          <li>Transformers & Fine-tuning</li>
-          <li>Vector DBs (DuckDB, etc.)</li>
-          <li>FastAPI & Flask Integration</li>
-        </ul>
-      </div>
-      
-      <div class="card">
-        <h3>Tools & Protocols</h3>
-        <ul class="feature-list">
-          <li>WebRTC (aiortc)</li>
-          <li>STT/TTS (Vosk, Coqui)</li>
-          <li>Ollama Inference</li>
-          <li>Linux (RHEL/Ubuntu)</li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="text-center mt-5">
+    <div class="text-center">
       <a href="https://github.com/Ian-M05" target="_blank" class="btn btn-primary">
-        <i class="fab fa-github"></i> Follow Me on GitHub
+        <i class="fab fa-github"></i> Follow Me @Ian-M05
       </a>
     </div>
   </div>
