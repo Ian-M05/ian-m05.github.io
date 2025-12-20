@@ -62,7 +62,7 @@ paginate_path: "/blog/page:num/"
 header_pages:
   - about.md
   - projects.md
-  - blog.md
+  - blog/index.html
   - contact.md
 
 # Default settings
